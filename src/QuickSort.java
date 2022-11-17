@@ -35,7 +35,7 @@ public class QuickSort {
         int[] result = qs.quickSort(arr, 0, arr.length-1);
 
         for(int i: result){
-            System.out.println(i);
+            System.out.print(i);
         }
 
     }
